@@ -30,9 +30,14 @@ Eine Änderung von Vorlauf, Beginn oder Zeitzone startet den Countdown neu.
 
 ## Installation
 
-Wie beim Plugin für die Beitragsübernahme: in `/var/discourse/containers/app.yml` unter
-`hooks → after_code` eine weitere `git clone`-Zeile für dieses Repository, dann
-`./launcher rebuild app`.
+In `/var/discourse/containers/app.yml` unter `hooks → after_code` eine weitere Zeile
+(das Repository ist öffentlich, ein Token ist nicht nötig):
+
+```yaml
+          - git clone https://github.com/philippweller/discourse_maintenance.git discourse-wartungshinweis
+```
+
+Dann `./launcher rebuild app`.
 
 ## Tests
 
