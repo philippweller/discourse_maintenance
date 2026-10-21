@@ -1,0 +1,9 @@
+de:
+  site_settings:
+    wartungshinweis_aktiv: "Wartungshinweis mit Countdown für alle anzeigen. Einschalten startet den Countdown, Ausschalten blendet ihn sofort überall aus."
+    wartungshinweis_text: "Text unter dem Countdown."
+    wartungshinweis_vorlauf_minuten: "Minuten bis zum Beginn, gezählt ab dem Einschalten. Gilt nur, wenn kein fester Beginn eingetragen ist."
+    wartungshinweis_beginn: "Fester Beginn, z. B. 2026-10-22 20:00. Leer lassen, um den Vorlauf in Minuten zu nutzen."
+    wartungshinweis_zeitzone: "Zeitzone für den festen Beginn."
+    wartungshinweis_dauer_minuten: "So viele Minuten nach Beginn verschwindet der Hinweis von selbst, falls er nach dem Update noch eingeschaltet ist."
+    wartungshinweis_beginn_utc: "Intern: berechneter Beginn in UTC."

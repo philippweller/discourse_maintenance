@@ -1,0 +1,26 @@
+plugins:
+  wartungshinweis_aktiv:
+    default: false
+    client: true
+  wartungshinweis_text:
+    default: "Wir spielen gleich ein Update ein. Bitte speichert eure Beiträge und meldet euch ab."
+    client: true
+  wartungshinweis_vorlauf_minuten:
+    type: integer
+    default: 15
+    min: 1
+    max: 1440
+  wartungshinweis_beginn:
+    default: ""
+  wartungshinweis_zeitzone:
+    default: "Europe/Berlin"
+  wartungshinweis_dauer_minuten:
+    type: integer
+    default: 30
+    min: 1
+    max: 1440
+    client: true
+  wartungshinweis_beginn_utc:
+    default: ""
+    client: true
+    hidden: true

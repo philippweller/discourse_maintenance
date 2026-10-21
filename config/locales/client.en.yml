@@ -1,0 +1,8 @@
+en:
+  js:
+    wartungshinweis:
+      titel: "Maintenance"
+      beginnt_in: "Maintenance starts in"
+      um: "at %{zeit}"
+      laeuft: "Maintenance is starting now. The forum will be back shortly."
+      ausblenden: "Hide notice"

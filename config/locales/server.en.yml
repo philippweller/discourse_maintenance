@@ -1,0 +1,9 @@
+en:
+  site_settings:
+    wartungshinweis_aktiv: "Show a maintenance notice with countdown to everyone. Turning it on starts the countdown, turning it off hides it everywhere at once."
+    wartungshinweis_text: "Text below the countdown."
+    wartungshinweis_vorlauf_minuten: "Minutes until the start, counted from switching on. Only used when no fixed start is set."
+    wartungshinweis_beginn: "Fixed start, e.g. 2026-10-22 20:00. Leave empty to use the lead time in minutes."
+    wartungshinweis_zeitzone: "Time zone of the fixed start."
+    wartungshinweis_dauer_minuten: "The notice disappears by itself this many minutes after the start, in case it is still on after the update."
+    wartungshinweis_beginn_utc: "Internal: computed start in UTC."

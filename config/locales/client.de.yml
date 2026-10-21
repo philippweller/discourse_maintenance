@@ -1,0 +1,8 @@
+de:
+  js:
+    wartungshinweis:
+      titel: "Wartung"
+      beginnt_in: "Wartung beginnt in"
+      um: "um %{zeit} Uhr"
+      laeuft: "Die Wartung beginnt jetzt. Das Forum ist gleich wieder erreichbar."
+      ausblenden: "Hinweis ausblenden"
